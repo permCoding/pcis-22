@@ -10,3 +10,9 @@ nodemon
 html  
 синхрон и асинхрон  
 routing  
+
+---  
+
+Ctrl + C - это для остановки приложения  
+
+npm i nodemon -g  
