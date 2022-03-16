@@ -1,3 +1,5 @@
+// добавим header для облегчения страниц 
+
 const express = require("express");
 const path = require("path");
 

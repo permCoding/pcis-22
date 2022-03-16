@@ -1,3 +1,5 @@
+// public для css, js и других файлов
+
 const express = require("express");
 const path = require("path");
 
