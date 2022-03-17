@@ -3,9 +3,7 @@ const path = require("path");
 
 const get_url = (page) => path.join(__dirname, "views", page);
 
-const pages = [
-    "index.html", "contacts.html", "content.html"
-];
+const pages = ["index.html", "contacts.html", "content.html"];
 
 const app = express();
 
