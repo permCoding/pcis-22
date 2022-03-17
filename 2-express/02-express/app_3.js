@@ -15,9 +15,9 @@ app.get("/", (req, res) => {
 
 app.get("/:page", (req, res) => {
     let page = req.params.page;
-    console.log(pages.includes(page));
+    // console.log(pages.includes(page));
     if (pages.includes(page)) 
         res.sendFile(get_url(page));
     else
-        res.send("нет такой страницы");
+        res.send("404 - нет такой страницы");
 });
